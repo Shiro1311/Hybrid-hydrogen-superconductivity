@@ -1,0 +1,18 @@
+.env
+# Bỏ qua tất cả file CSV, Excel, Zip (cho đỡ nặng)
+*.csv
+*.xlsx
+*.zip
+*.tar.gz
+
+# Bỏ qua thư mục rác mày vừa tạo
+archive/
+old_data/
+trash/
+__pycache__/
+.ipynb_checkpoints/
+
+# NHƯNG! Giữ lại đúng 2 file quan trọng này (Dấu chấm than là ngoại lệ)
+!supercon2_v22.12.03.csv
+!SuperCon_Expert_Fix_final.csv
+!raw_materials_data.csv
